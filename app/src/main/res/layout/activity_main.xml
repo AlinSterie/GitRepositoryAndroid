@@ -8,25 +8,11 @@
     tools:context=".MainActivity">
 
     <ListView
-        android:id="@+id/listView1"
-        android:layout_width="184dp"
-        android:layout_height="306dp"
+        android:id="@+id/listView"
+        android:layout_width="358dp"
+        android:layout_height="640dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ListView
-        android:id="@+id/listView2"
-        android:layout_width="171dp"
-        android:layout_height="306dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ListView
-        android:id="@+id/listView3"
-        android:layout_width="189dp"
-        android:layout_height="328dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 
